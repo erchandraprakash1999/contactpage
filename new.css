@@ -1,0 +1,98 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+.group{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    background: #fff;
+
+}
+#mapouter{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+form {
+    
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+.contactpage{
+    width: 50%;
+}
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group textarea {
+    height: 100px;
+}
+.btn {
+    display: block;
+    width: max-content;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #ff6600;
+    color: #ff6600;
+}
+.contact-info {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+}
+.contact-info h2 {
+    color: #ff6600;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.contact-info p {
+    margin: 0 0 10px;
+}
+.contact-info .section-title {
+    font-weight: bold;
+    margin-top: 20px;
+}
+.contact-info .icon {
+    color: #ff6600;
+    margin-right: 10px;
+}
+.contact-info .email a {
+    color: #333;
+    text-decoration: none;
+}
+.contact-info .email a:hover {
+    text-decoration: underline;
+}
